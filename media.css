@@ -134,7 +134,6 @@ flex-direction: column;
 
 .right{
     width: 100%;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,7 +165,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border: 1px solid red;
 height: 200px;
 font-size: 12px;
 gap: -3rem;
@@ -179,8 +177,6 @@ gap: -3rem;
 .about__basline{
     height: 102vh;
     padding-top: 9rem;
-    border: 2px solid green;
-
 }
 
 .div img{
@@ -207,14 +203,13 @@ justify-content: center;
     align-items: center;
     justify-content: center;
    margin-top: -9rem;
-    border: 2px solid red;
     background-color: #f7f7f7;
 }
 
 .services{
     height: 148vh;
 width: 100%;
-margin-top: 43rem;
+margin-top: 8rem;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -222,10 +217,10 @@ justify-content: center;
 }
 
 .services__content{
- 
+ border: 1px solid red;
     font-size: 14px;
     display: flex;
-    margin-top: 9rem;
+    margin-top: 4rem;
 }
 .services__content2{
     display: flex;
@@ -233,7 +228,9 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
-    height: 90vh;
+    margin-top: 7rem;
+  width: 90%;
+    height: 100vh;
 }
 
 .list img{
@@ -243,22 +240,26 @@ object-fit: cover;
 object-position: center;
 }
 .list{
-    width: 100%;
+    width: 90%;
 }
 
-
-
-
 .our__team{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 5rem;
-background-color: #edc588;
+    justify-content: center;
+    max-height: 100vh;
 }
+
+
+
 .team{
       height: 30vh;
+      margin-top: 7rem;
+      margin-bottom: 5rem;
+      width: 90%;
+border: 2px solid red;
 
 }
 
@@ -287,7 +288,7 @@ background-color: #edc588;
 }
 
 .right-row{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,7 +298,7 @@ background-color: #edc588;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    width: 90%;
 }
 
 .text{
