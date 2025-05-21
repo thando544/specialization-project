@@ -70,7 +70,7 @@ li a{
 .banner{
     width: 100%;
     display: flex;
-    height: 110vh;
+    height: 180vh;
     flex-direction: column;
 }
 
@@ -104,17 +104,16 @@ height: auto;
 }
 
 .banner__form{
-right: 1rem;
-margin-top: 199px;
+right: 2rem;
 width: 90%;
-display: none;
+top: 59rem;
 
 }
 
 .row{
     display: flex;
 flex-direction: column;
-border: 1px solid red;
+
 }
 .row input{
     width: 100%;
@@ -140,7 +139,7 @@ border: 1px solid red;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 50vh;
+    height: 80vh;
 
 }
 
@@ -167,8 +166,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-height: 210px;
+border: 1px solid red;
+height: 200px;
 font-size: 12px;
 gap: -3rem;
 }
@@ -178,10 +177,9 @@ gap: -3rem;
 }
 
 .about__basline{
-
-    width: 100%;
-    height: 100vh;
-    padding-top: -11rem;
+    height: 102vh;
+    padding-top: 9rem;
+    border: 2px solid green;
 
 }
 
@@ -208,23 +206,26 @@ justify-content: center;
     align-items: center;
     align-items: center;
     justify-content: center;
-    height: 77vh;
-    background-color: #edc588;
+   margin-top: -9rem;
+    border: 2px solid red;
+    background-color: #cce418;
 }
 
 .services{
     height: 148vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+width: 100%;
+margin-top: 43rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 
 .services__content{
  
     font-size: 14px;
     display: flex;
+    margin-top: 9rem;
 }
 .services__content2{
     display: flex;
@@ -232,6 +233,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
+    height: 90vh;
 }
 
 .list img{
