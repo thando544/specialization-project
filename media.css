@@ -107,12 +107,14 @@ height: auto;
 right: 1rem;
 margin-top: 199px;
 width: 90%;
+display: none;
 
 }
 
 .row{
     display: flex;
 flex-direction: column;
+border: 1px solid red;
 }
 .row input{
     width: 100%;
@@ -122,7 +124,7 @@ flex-direction: column;
 .inner__items{
     display: flex;
     flex-direction: column;
-    margin-top: -7rem;
+    margin-top: 7rem;
  
     height: fit-content;
 }
@@ -133,6 +135,7 @@ flex-direction: column;
 
 .right{
     width: 100%;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,7 +194,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-    height: 210px;
     width: 90%;
     padding-bottom: 2rem;
     text-align: center;
@@ -206,7 +208,8 @@ justify-content: center;
     align-items: center;
     align-items: center;
     justify-content: center;
-    height: 65vh;
+    height: 77vh;
+    background-color: #edc588;
 }
 
 .services{
@@ -241,10 +244,7 @@ object-position: center;
     width: 100%;
 }
 
-.our__team{
-    margin-top: 0rem;
-height: auto;
-}
+
 
 
 .our__team{
@@ -253,9 +253,11 @@ height: auto;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
+background-color: #edc588;
 }
 .team{
       height: 30vh;
+
 }
 
 .team h1{
@@ -305,13 +307,13 @@ height: auto;
 }
 
 .products-banner{
-    border: 2px solid red;
-    margin-top: 12em;
+    margin-top: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-size: 1em;
     font-weight: 100;
+    margin-bottom: 1.5rem;
 }
 
 .product-item{
@@ -319,10 +321,10 @@ height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
 }
 .product-item img{
-    width: 100%;
+    width: 70%;
 }
 
 .products__content{
